@@ -1,0 +1,18 @@
+#addTabs{
+    -fx-background-color: chocolate;
+}
+#addTabs:pressed{
+    -fx-background-color: #d2460d;
+}
+
+
+#headerText {
+    -fx-font-size: 30px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #815617;
+    -fx-effect: innershadow( three-pass-box , rgba(209, 207, 210, 0.9), 6, 0.0 , 0 , 2 );
+}
+
+#body{
+    -fx-background-color: #d1cfd2;
+}
