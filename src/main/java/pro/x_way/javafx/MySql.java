@@ -6,7 +6,6 @@ import java.sql.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MySql {
-    // JDBC URL, username and password of MySQL server
     private static final String url = "jdbc:mysql://localhost:3306/tabs?useSSL=false&UseUnicode=true&characterEncoding=UTF-8";
     private static final String user = "root";
     private static final String password = "";
