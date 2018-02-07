@@ -16,10 +16,8 @@ public class AddMessage {
 
     public void addTab(ActionEvent actionEvent) {
         if (!messageName.getText().equals("") & !messageName.getText().equals("")) {
-            if (MySql.addMessage(messageName.getText(), messageFullText.getText()))
-                MySql.getMessage(messageName.getText());
+            MySql.addMessage(messageName.getText(), messageFullText.getText());
         }
-
 
         actionClose(actionEvent);
     }

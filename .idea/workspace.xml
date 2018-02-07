@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7376a7a0-1bdb-4654-a407-9f631a6b0226" name="Default" comment="" />
+    <list default="true" id="7376a7a0-1bdb-4654-a407-9f631a6b0226" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/MySql.java" afterPath="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/MySql.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/AddMessage.java" afterPath="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/AddMessage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/MyTabs.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/MyTabs.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/addTab.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/addTab.fxml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/sample.fxml" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,46 +29,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySql.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/MySql.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1518013888743" expanded="true" signature="480:547" ph="INSERT INTO all_tabs... " />
-                <marker date="1518013888743" expanded="true" signature="598:757" ph="CREATE TABLE... IF" />
-                <marker date="1518013888743" expanded="true" signature="2398:2420" ph="select * fro... all_tabs" />
-                <marker date="1518013888743" expanded="true" signature="2494:2551" ph="select * fro... all_tabs" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddMessage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/AddMessage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,12 +65,12 @@
         <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/SendMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Listener.java" />
         <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Model/Message.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/MyTabs.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/addTab.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/AddMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/MySql.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/AddMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/addTab.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/MyTabs.fxml" />
       </list>
     </option>
   </component>
@@ -182,6 +149,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="javafx" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaFx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaFxTabs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javaFx" type="b2602c69:ProjectViewProjectNode" />
@@ -382,12 +358,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517991170343</updated>
       <workItem from="1517991171974" duration="16041000" />
-      <workItem from="1518012857152" duration="939000" />
+      <workItem from="1518012857152" duration="2019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16980000" />
+    <option name="totallyTimeSpent" value="18060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1152" height="720" extended-state="0" />
@@ -402,11 +378,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25405404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -473,10 +449,10 @@
           <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518013888743" expanded="true" signature="480:547" ph="INSERT INTO all_tabs... " />
-            <marker date="1518013888743" expanded="true" signature="598:757" ph="CREATE TABLE... IF" />
-            <marker date="1518013888743" expanded="true" signature="2398:2420" ph="select * fro... all_tabs" />
-            <marker date="1518013888743" expanded="true" signature="2494:2551" ph="select * fro... all_tabs" />
+            <marker date="1518015061880" expanded="true" signature="425:492" ph="INSERT INTO all_tabs... " />
+            <marker date="1518015061880" expanded="true" signature="543:702" ph="CREATE TABLE... IF" />
+            <marker date="1518015061880" expanded="true" signature="2232:2254" ph="select * fro... all_tabs" />
+            <marker date="1518015061880" expanded="true" signature="2328:2385" ph="select * fro... all_tabs" />
           </folding>
         </state>
       </provider>
@@ -509,48 +485,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/SendMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Listener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#354#355#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#492#493#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Locale_ru.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/addTab.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/MyTabs.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/src.zip!/java/lang/invoke/DirectMethodHandle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="282" column="0" lean-forward="false" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
           <folding>
-            <element signature="e#12011#12012#0" expanded="true" />
+            <element signature="e#12011#12012#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,40 +525,7 @@
         <state relative-caret-position="114">
           <caret line="1657" column="0" lean-forward="false" selection-start-line="1657" selection-start-column="0" selection-end-line="1657" selection-end-column="0" />
           <folding>
-            <element signature="e#66921#66922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Model/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#66921#66922#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -630,25 +538,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/MyTabs.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/AddMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="169">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/controllers/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/MySql.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="-813">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1518013888743" expanded="true" signature="480:547" ph="INSERT INTO all_tabs... " />
-            <marker date="1518013888743" expanded="true" signature="598:757" ph="CREATE TABLE... IF" />
-            <marker date="1518013888743" expanded="true" signature="2398:2420" ph="select * fro... all_tabs" />
-            <marker date="1518013888743" expanded="true" signature="2494:2551" ph="select * fro... all_tabs" />
+            <marker date="1518015061880" expanded="true" signature="425:492" ph="INSERT INTO all_tabs... " />
+            <marker date="1518015061880" expanded="true" signature="543:702" ph="CREATE TABLE... IF" />
+            <marker date="1518015061880" expanded="true" signature="2232:2254" ph="select * fro... all_tabs" />
+            <marker date="1518015061880" expanded="true" signature="2328:2385" ph="select * fro... all_tabs" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/addTab.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pro/x_way/javafx/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

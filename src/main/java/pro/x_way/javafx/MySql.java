@@ -12,8 +12,7 @@ public class MySql {
     public static final String INSERT_INTO = "INSERT INTO all_tabs (title, message, create_date) VALUES (?, ?, ?);";
     public static final String CREATE_TABLE = "CREATE TABLE IF NOT EXISTS all_tabs (id INT PRIMARY KEY auto_increment, title VARCHAR (50) NOT NULL , message VARCHAR(100) NOT NULL, create_date DATE NOT NULL);";
 
-    public static boolean addMessage(String title, String message) {
-        AtomicBoolean tmp = new AtomicBoolean(false);
+    public static void addMessage(String title, String message) {
 
         new Thread(() -> {
             Connection con = null;
@@ -28,9 +27,8 @@ public class MySql {
                 preparedStatement.setString(2, message);
                 preparedStatement.setDate(3, new Date(System.currentTimeMillis()));
                 preparedStatement.executeUpdate();
-                tmp.set(true);
+                getMessage(title);
             } catch (SQLException sqlEx) {
-                tmp.set(false);
                 sqlEx.printStackTrace();
             } finally {
                 try {
@@ -42,7 +40,6 @@ public class MySql {
 
             }
         }).start();
-        return tmp.get();
     }
 
     public static void getMessage(String textUpdate) {
@@ -81,6 +78,7 @@ public class MySql {
 
             }
         }).start();
+
     }
 
 }
